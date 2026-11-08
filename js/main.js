@@ -420,7 +420,7 @@
 
         var signup = document.createElement("button");
         signup.type = "button";
-        signup.className = "btn btn--sm";
+        signup.className = "btn btn--sm btn--gold-line";
         signup.setAttribute("data-auth", "signup");
         signup.textContent = "Sign Up";
 

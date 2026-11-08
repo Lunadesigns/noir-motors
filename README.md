@@ -25,7 +25,8 @@ Shared header/footer are duplicated in each file on purpose (no JS dependency fo
 - sticky header gets a blurred background on scroll
 - hamburger menu under 1024px (Log In / Sign Up included)
 - **client access dialog** — Log In / Sign Up open a modal (see `assets/refernaces/image.png`)
-- scroll reveal: fade + rise + blur-out, staggered per element
+- scroll reveal: pure opacity fade (no movement), staggered per element, matching the reference recording
+- FAQ accordion: smooth height expansion with the answer fading in; `+` becomes `−` on open
 - hero car parallax on scroll (desktop only)
 - smooth in-page anchor scrolling (`prefers-reduced-motion` respected)
 - collection filters (All / Saloon / Grand Tourer / Supercar / SUV)
