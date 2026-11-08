@@ -26,6 +26,8 @@ Shared header/footer are duplicated in each file on purpose (no JS dependency fo
 - hamburger menu under 1024px (Log In / Sign Up included)
 - **client access dialog** — Log In / Sign Up open a modal (see `assets/refernaces/image.png`)
 - scroll reveal: pure opacity fade (no movement), staggered per element, matching the reference recording
+- hero car fades and slides in from the right on load
+- hero buttons fill left-to-right with gold on hover
 - FAQ accordion: smooth height expansion with the answer fading in; `+` becomes `−` on open
 - hero car parallax on scroll (desktop only)
 - smooth in-page anchor scrolling (`prefers-reduced-motion` respected)
