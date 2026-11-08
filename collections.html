@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0c">
+<title>Collections — NOIR MOTORS</title>
+<meta name="description" content="Eight marques, each maintained to showroom standard and delivered to your door. Choose a car, pick your dates, and we handle the rest.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a class="logo" href="index.html">Noir Motors</a>
+
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="collections.html" class="is-active" aria-current="page">Collections</a>
+      <a href="contact.html">Contact</a>
+      <a href="faq.html">FAQs</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn--sm" href="#">Log In</a>
+      <a class="btn btn--sm" href="#">Sign Up</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 data-reveal>Cars chosen for the<br>way you arrive.</h1>
+      <hr class="rule" data-reveal style="--reveal-delay:80ms">
+      <p class="lede" data-reveal style="--reveal-delay:120ms">Eight marques, each maintained to showroom standard and delivered to your door. Choose a car, pick your dates, and we handle the rest.</p>
+    </div>
+  </section>
+
+  <div class="filters-band">
+    <div class="container">
+      <div class="filters" role="tablist" aria-label="Filter by body style">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="saloon" role="tab" aria-selected="false">Saloon</button>
+        <button class="filter" data-filter="gt" role="tab" aria-selected="false">Grand Tourer</button>
+        <button class="filter" data-filter="supercar" role="tab" aria-selected="false">Supercar</button>
+        <button class="filter" data-filter="suv" role="tab" aria-selected="false">SUV</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="container">
+    <div class="cars" id="cars">
+
+      <article class="car-card" data-cat="gt" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-db12.png" alt="Aston Martin DB12 in deep blue" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Grand Tourer</span>
+          <h3 class="car-card__name">Aston Martin DB12</h3>
+          <p class="car-card__meta">4.0L V8 &middot; 671 hp &middot; 2+2 leather cabin</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,300 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Aston%20Martin%20DB12">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="saloon" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-phantom.png" alt="Rolls-Royce Phantom in deep green" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Saloon</span>
+          <h3 class="car-card__name">Rolls Royce Phantom</h3>
+          <p class="car-card__meta">6.75L V12 &middot; 563 hp &middot; Rear-seat lounge</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,450 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Rolls%20Royce%20Phantom">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="gt" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-continental.png" alt="Bentley Continental GT" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Grand Tourer</span>
+          <h3 class="car-card__name">Bentley Continental GT</h3>
+          <p class="car-card__meta">4.0L V8 &middot; 542 hp &middot; Hand-stitched interior</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$980 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Bentley%20Continental%20GT">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="supercar" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-huracan.png" alt="Lamborghini Huracán" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Supercar</span>
+          <h3 class="car-card__name">Lamborghini Hurac&aacute;n</h3>
+          <p class="car-card__meta">5.2L V10 &middot; 631 hp &middot; 0&ndash;100 km/h in 3.2s</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,600 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Lamborghini%20Hurac%C3%A1n">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="suv" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-dbx707.png" alt="Aston Martin DBX707 in racing green" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">SUV</span>
+          <h3 class="car-card__name">Aston Martin DBX707</h3>
+          <p class="car-card__meta">4.0L V8 &middot; 697 hp &middot; Five-seat leather cabin</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,150 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Aston%20Martin%20DBX707">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="gt" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-roma.png" alt="Ferrari Roma in red" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Grand Tourer</span>
+          <h3 class="car-card__name">Ferrari Roma</h3>
+          <p class="car-card__meta">3.9L V8 &middot; 612 hp &middot; 2+2 coup&eacute;</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,350 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Ferrari%20Roma">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="saloon" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-maybach.png" alt="Mercedes-Maybach S 680" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">Saloon</span>
+          <h3 class="car-card__name">Mercedes Maybach S 680</h3>
+          <p class="car-card__meta">6.0L V12 &middot; 603 hp &middot; Executive rear seats</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$1,200 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Mercedes%20Maybach%20S%20680">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="car-card" data-cat="suv" data-reveal>
+        <div class="car-card__media">
+          <img src="assets/car-range-rover.png" alt="Range Rover Autobiography in blue" width="604" height="328" loading="lazy">
+        </div>
+        <div class="car-card__body">
+          <span class="car-card__cat">SUV</span>
+          <h3 class="car-card__name">Range Rover Autobiography</h3>
+          <p class="car-card__meta">4.4L V8 &middot; 523 hp &middot; Four-seat option</p>
+          <hr class="car-card__rule">
+          <div class="car-card__foot">
+            <p class="car-card__price">$720 <span>/ day</span></p>
+            <a class="btn btn--outline-gold" href="contact.html?vehicle=Range%20Rover%20Autobiography">Reserve</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <form class="booking" id="bookingForm" novalidate data-reveal>
+      <div class="field field--select">
+        <label for="booking-car">Car</label>
+        <select id="booking-car" name="car" required>
+          <option value="">Any Car</option>
+          <option>Aston Martin DB12</option>
+          <option>Rolls Royce Phantom</option>
+          <option>Bentley Continental GT</option>
+          <option>Lamborghini Hurac&aacute;n</option>
+          <option>Aston Martin DBX707</option>
+          <option>Ferrari Roma</option>
+          <option>Mercedes Maybach S 680</option>
+          <option>Range Rover Autobiography</option>
+        </select>
+      </div>
+
+      <div class="field field--date">
+        <label for="booking-pickup">Pick-up</label>
+        <input type="date" id="booking-pickup" name="pickup" required>
+      </div>
+
+      <div class="field field--date">
+        <label for="booking-return">Return</label>
+        <input type="date" id="booking-return" name="return" required>
+      </div>
+
+      <button class="btn btn--gold btn--block" type="submit" style="margin-top:32px; height:52px">Check Availability</button>
+      <p class="form-note" id="bookingNote" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <a class="logo" href="index.html">Noir Motors</a>
+      <p class="site-footer__place">Kolkata &middot; By Appointment</p>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

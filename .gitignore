@@ -1,0 +1,10 @@
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Source design bundle (frames are kept, the export zip is redundant)
+design/NOIR MOTOTRS.zip
+design/home.png
+design/assets/
+

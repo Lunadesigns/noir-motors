@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0c">
+<title>Contact — NOIR MOTORS</title>
+<meta name="description" content="Share your plans with us and our concierge team will arrange a vehicle worthy of the occasion, within the hour.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container site-header__inner">
+    <a class="logo" href="index.html">Noir Motors</a>
+
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html" class="is-active" aria-current="page">Contact</a>
+      <a href="faq.html">FAQs</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn--sm" href="#">Log In</a>
+      <a class="btn btn--sm" href="#">Sign Up</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="primaryNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero page-hero--center">
+    <div class="container">
+      <span class="eyebrow" data-reveal>Concierge</span>
+      <h1 data-reveal style="--reveal-delay:80ms">Begin Your Journey</h1>
+      <hr class="rule" data-reveal style="--reveal-delay:140ms">
+      <p class="lede" data-reveal style="--reveal-delay:180ms">Share your plans with us and our concierge team will arrange a vehicle worthy of the occasion, within the hour.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="contact-body">
+      <h2 data-reveal>Visit &amp; Reach Us</h2>
+
+      <dl class="detail-list" data-reveal style="--reveal-delay:80ms">
+        <div class="detail">
+          <dt>Showroom</dt>
+          <dd>12 Parkstreet<br>Kolkata, West Bengal 700016</dd>
+        </div>
+        <div class="detail">
+          <dt>Telephone</dt>
+          <dd><a href="tel:+919876543210">+91 98765 43210</a></dd>
+        </div>
+        <div class="detail">
+          <dt>E-mail</dt>
+          <dd><a href="mailto:concierge@noirmotors.com">concierge@noirmotors.com</a></dd>
+        </div>
+        <div class="detail">
+          <dt>Hours</dt>
+          <dd>Monday &ndash; Sunday<br>9:00 am &ndash; 9:00 pm</dd>
+        </div>
+      </dl>
+
+      <form class="enquiry" id="enquiryForm" novalidate data-reveal>
+        <h2>Enquiry</h2>
+
+        <div class="field">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel" inputmode="tel" required>
+        </div>
+
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+
+        <div class="field field--select">
+          <label for="vehicle">Vehicle</label>
+          <select id="vehicle" name="vehicle">
+            <option value="">Select a vehicle</option>
+            <option>Aston Martin DB12</option>
+            <option>Rolls Royce Phantom</option>
+            <option>Bentley Continental GT</option>
+            <option>Lamborghini Hurac&aacute;n</option>
+            <option>Aston Martin DBX707</option>
+            <option>Ferrari Roma</option>
+            <option>Mercedes Maybach S 680</option>
+            <option>Range Rover Autobiography</option>
+          </select>
+        </div>
+
+        <div class="field field--date">
+          <label for="pickup">Pick-up Date</label>
+          <input type="date" id="pickup" name="pickup">
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="3"></textarea>
+        </div>
+
+        <button class="btn btn--gold btn--block" type="submit">Send Enquiry</button>
+        <p class="form-note" id="enquiryNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <a class="logo" href="index.html">Noir Motors</a>
+      <p class="site-footer__place">Kolkata &middot; By Appointment</p>
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; 2026</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
