@@ -23,13 +23,23 @@ Shared header/footer are duplicated in each file on purpose (no JS dependency fo
 ## Interactive bits (`js/main.js`)
 
 - sticky header gets a blurred background on scroll
-- hamburger menu under 1024px
-- scroll reveal (respects `prefers-reduced-motion`)
+- hamburger menu under 1024px (Log In / Sign Up included)
+- **client access dialog** — Log In / Sign Up open a modal (see `assets/refernaces/image.png`)
+- scroll reveal: fade + rise + blur-out, staggered per element
+- hero car parallax on scroll (desktop only)
+- smooth in-page anchor scrolling (`prefers-reduced-motion` respected)
 - collection filters (All / Saloon / Grand Tourer / Supercar / SUV)
 - FAQ accordion (one open at a time)
 - booking panel: date validation + "available" summary
 - enquiry form: validation, and it prefills the vehicle when you arrive from a **Reserve** button (`contact.html?vehicle=Ferrari%20Roma`)
-- `Log In` / `Sign Up` are dead links — no auth backend.
+
+### Login / signup
+
+There's no backend, so accounts are client-side: the dialog validates the fields and stores the
+session in `localStorage` (`noir.client`). The header then shows `Welcome, <name>` plus **Log Out**.
+Swap the `authForm` submit handler for a real API call when one exists.
+
+Deep links work too: `index.html#login` and `index.html#signup` open the dialog directly.
 
 ## Type & colour
 
